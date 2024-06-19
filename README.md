@@ -16,6 +16,10 @@ The project directory is structured as follows:
   - **test_data_processing.py**: Unit tests for `data_processing.py`.
 
 - **README.md**: Project documentation file.
+  
+## Usage
+To get the data from Api's
+Run the main script (`main.py`):
 
 ## Components
 
@@ -41,10 +45,6 @@ The `DataProcessor` class in `data_processing.py` provides methods to:
 
 The `APIDataFetcher` class in `api_interaction.py` handles API interactions:
 - **`fetch_data(endpoint, max_retries)`**: Fetches data from a specified API endpoint using basic authentication (`USERNAME` and `PASSWORD`) with retry mechanism.
-
-## Usage
-To get the data from Api's
-Run the main script (`main.py`):
 
 ```bash
 python src/main.py
