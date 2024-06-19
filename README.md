@@ -40,7 +40,7 @@ The `DataProcessor` class in `data_processing.py` provides methods to:
 ### `api_interaction.py`
 
 The `APIDataFetcher` class in `api_interaction.py` handles API interactions:
-- **`fetch_data(endpoint, max_retries)`**: Fetches data from a specified API endpoint using basic authentication (`USERNAME` and `PASSWORD` constants) with retry mechanism.
+- **`fetch_data(endpoint, max_retries)`**: Fetches data from a specified API endpoint using basic authentication (`USERNAME` and `PASSWORD`) with retry mechanism.
 
 ## Usage
 To get the data from Api's
@@ -55,10 +55,11 @@ Unit tests are provided in tests/ using unittest framework:
 test_api_interaction.py: Tests for APIDataFetcher.
 test_data_processing.py: Tests for DataProcessor.
 
-To run tests click on your project terminal:
+To run tests click on project terminal:
 
 bash:
 python -m unittest discover -s tests
+
 And click enter 
 
 ## Dependencies
